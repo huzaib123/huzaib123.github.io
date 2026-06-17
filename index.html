@@ -32,21 +32,21 @@
       --dur: 180ms;
     }
     [data-theme="dark"] {
-      --bg: #080810; --surface: #0f0f1a; --surface2: #141425; --surface3: #1a1a2e;
-      --border: rgba(255,255,255,0.07); --divider: rgba(255,255,255,0.05);
-      --text: #f0efff; --muted: #8585a8; --faint: #3a3a52;
-      --accent: #6c8fff; --accent2: #a56cff; --accent-glow: rgba(108,143,255,0.18);
-      --lime: #c8fa64;
+      --bg: #0a0a0a; --surface: #171717; --surface2: #262626; --surface3: #404040;
+      --border: rgba(255,255,255,0.1); --divider: rgba(255,255,255,0.05);
+      --text: #ededed; --muted: #a1a1aa; --faint: #52525b;
+      --accent: #2563eb; --accent2: #3b82f6; --accent-glow: rgba(37,99,235,0.1);
+      --lime: #2563eb;
       --sh-sm: 0 1px 3px rgba(0,0,0,0.5);
       --sh-md: 0 6px 24px rgba(0,0,0,0.6);
       --sh-lg: 0 20px 60px rgba(0,0,0,0.7);
     }
     [data-theme="light"] {
-      --bg: #f4f4fb; --surface: #fefeff; --surface2: #eeeef8; --surface3: #e8e8f4;
+      --bg: #fafafa; --surface: #ffffff; --surface2: #f4f4f5; --surface3: #e5e5e5;
       --border: rgba(0,0,0,0.08); --divider: rgba(0,0,0,0.05);
-      --text: #0d0d1e; --muted: #555570; --faint: #b0b0c8;
-      --accent: #3a5fff; --accent2: #7a3fff; --accent-glow: rgba(58,95,255,0.12);
-      --lime: #2d6a00;
+      --text: #171717; --muted: #52525b; --faint: #a1a1aa;
+      --accent: #2563eb; --accent2: #3b82f6; --accent-glow: rgba(37,99,235,0.1);
+      --lime: #2563eb;
       --sh-sm: 0 1px 3px rgba(0,0,0,0.06);
       --sh-md: 0 6px 24px rgba(0,0,0,0.08);
       --sh-lg: 0 20px 60px rgba(0,0,0,0.12);
@@ -227,7 +227,7 @@
   <div id="cring"></div>
 
   <div id="loader">
-    <div class="loader-name"><span>HUZAIB</span><span style="color:transparent;background:linear-gradient(135deg,#6c8fff,#a56cff);-webkit-background-clip:text;background-clip:text"> WADOO</span></div>
+    <div class="loader-name"><span>HUZAIB</span><span style="color:transparent;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text"> WADOO</span></div>
     <div class="loader-bar-wrap"><div class="loader-bar" id="lbar"></div></div>
   </div>
 
@@ -236,7 +236,6 @@
     <div class="nav-links">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
       <a href="#experience">Journey</a>
       <a href="#contact">Contact</a>
     </div>
@@ -248,9 +247,6 @@
   </nav>
 
   <section id="hero">
-    <div class="orb orb1" id="orb1"></div>
-    <div class="orb orb2" id="orb2"></div>
-    <div class="orb orb3" id="orb3"></div>
     <div style="position:relative;z-index:1">
       <div class="hero-eyebrow" id="eyebrow">
         <div class="hero-dot"></div>
@@ -304,113 +300,22 @@
     <h2 class="s-head r">What I work with</h2>
     <div class="marquee-wrap">
       <div class="marquee-track" id="mt1">
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Python</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Gen AI</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>ML Training</div>
         <div class="skill-chip"><span class="skill-chip-icon"></span>Java</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>C</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>C++</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Machine Learning</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Artificial Intelligence</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Analysis</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Matplotlib</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Pandas</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>AWS</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Figma</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Scikit-learn</div>
         <div class="skill-chip"><span class="skill-chip-icon"></span>Python</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Sorter and Predictor</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Gen AI</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>ML Training</div>
         <div class="skill-chip"><span class="skill-chip-icon"></span>Java</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>C</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>C++</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Machine Learning</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Artificial Intelligence</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Analysis</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Matplotlib</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Pandas</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>AWS</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Figma</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Scikit-learn</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Python</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Sorter and Predictor</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Gen AI</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>ML Training</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Java</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Python</div>
+        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Sorter and Predictor</div>
       </div>
-    </div>
-    <div class="marquee-wrap" style="margin-top:var(--space-4)">
-      <div class="marquee-track marquee-track2">
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Cinematography</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Digital Photography</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Visual Editing</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Prompt Engineering</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>UI/UX Design</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>OOP</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Excel</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Cloud Security</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Team Leadership</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Intercultural Collab</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Problem Solving</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Structures</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Cinematography</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Digital Photography</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Visual Editing</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Prompt Engineering</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>UI/UX Design</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>OOP</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Excel</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Cloud Security</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Team Leadership</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Intercultural Collab</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Problem Solving</div>
-        <div class="skill-chip"><span class="skill-chip-icon"></span>Data Structures</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="s-label r">Work</div>
-    <h2 class="s-head r">Selected Projects</h2>
-    <p class="s-sub r">Things I've designed, built, and shipped.</p>
-    <div class="proj-grid">
-
-      <!-- Project 01 — Heart Disease Predictor -->
-      <div class="proj-card">
-        <div class="proj-accent"></div>
-        <a class="proj-arrow" href="https://unrivaled-seahorse-9e5d7d.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="View Heart Disease Predictor">&#8599;</a>
-        <div class="proj-num">Project 01</div>
-        <div class="proj-title">Heart Disease Predictor</div>
-        <div class="proj-desc">Built a complete ML pipeline from scratch — data cleaning, feature engineering, model training and tuning — landing over 85% accuracy. The kind of project that taught me more than any lecture could.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Python</span>
-          <span class="proj-tag">Scikit-learn</span>
-          <span class="proj-tag">Pandas</span>
-          <span class="proj-tag">Matplotlib</span>
-        </div>
-      </div>
-
-      <!-- Project 02 — GPA Calculator -->
-      <div class="proj-card">
-        <div class="proj-accent" style="background:linear-gradient(90deg,var(--accent2),#ff6cff)"></div>
-        <a class="proj-arrow" href="https://huzaib123.github.io/gpa-calculator" target="_blank" rel="noopener noreferrer" aria-label="View GPA Calculator">&#8599;</a>
-        <div class="proj-num">Project 02</div>
-        <div class="proj-title">GPA &amp; Grade Calculator</div>
-        <div class="proj-desc">Designed and built this from the ground up — smooth dark UI, animated GPA ring, live grade distribution chart, and a full semester tracker. Clean, fast, and actually useful.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">UI/UX</span>
-          <span class="proj-tag">HTML/CSS/JS</span>
-          <span class="proj-tag">GSAP</span>
-          <span class="proj-tag">Chart.js</span>
-        </div>
-      </div>
-
-      <!-- Project 03 — AWS Cloud Infrastructure -->
-      <div class="proj-card">
-        <div class="proj-accent" style="background:linear-gradient(90deg,#64c8fa,var(--accent))"></div>
-        <div class="proj-arrow">&#8599;</div>
-        <div class="proj-num">Project 03</div>
-        <div class="proj-title">AWS Cloud Infrastructure</div>
-        <div class="proj-desc">Hands-on cloud work — spun up EC2 instances, configured S3 storage, and applied security best practices end to end. Part of my AWS certification project and genuinely one of the more practical things I've done.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">AWS</span>
-          <span class="proj-tag">EC2</span>
-          <span class="proj-tag">S3</span>
-          <span class="proj-tag">Cloud Security</span>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -490,6 +395,7 @@
 
   <footer>
     <span>&copy; 2026 Huzaib Wadoo</span>
+    <a href="https://github.com/huzaib123" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:600;text-decoration:none;">GitHub</a>
     <span>CS Senior &middot; Taylor's University &amp; UWE Bristol</span>
   </footer>
 
@@ -510,7 +416,7 @@
       requestAnimationFrame(loop);
     }
     loop();
-    document.querySelectorAll('a,button,.proj-card,.stat,.exp-item').forEach(el=>{
+    document.querySelectorAll('a,button,.stat,.exp-item').forEach(el=>{
       el.addEventListener('mouseenter',()=>document.body.classList.add('ch'));
       el.addEventListener('mouseleave',()=>document.body.classList.remove('ch'));
     });
@@ -539,18 +445,13 @@
       l1.textContent='HUZAIB';l2.textContent='WADOO';
       const c1=splitToChars(l1),c2=splitToChars(l2);
       const tl=gsap.timeline();
-      tl.to('.orb',{opacity:1,duration:2,stagger:.3,ease:'power2.out'},0)
-        .to(c1,{y:0,opacity:1,duration:1,ease:'cubic-bezier(0.16,1,0.3,1)',stagger:.045},0.1)
+      tl.to(c1,{y:0,opacity:1,duration:1,ease:'cubic-bezier(0.16,1,0.3,1)',stagger:.045},0.1)
         .to(c2,{y:0,opacity:1,duration:1,ease:'cubic-bezier(0.16,1,0.3,1)',stagger:.045},0.3)
         .add(()=>{
           l2.innerHTML=l2.textContent.split('').map(c=>c===' '?'<span class="ch grad" style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">&nbsp;</span>':'<span class="ch grad" style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">'+c+'</span>').join('');
         },0.3)
         .to('#eyebrow',{opacity:1,y:0,duration:.7,ease:'power3.out'},0.8)
         .to('#hbottom',{opacity:1,y:0,duration:.7,ease:'power3.out'},1);
-
-      gsap.to('#orb1',{x:30,y:-20,duration:8,yoyo:true,repeat:-1,ease:'sine.inOut'});
-      gsap.to('#orb2',{x:-25,y:30,duration:10,yoyo:true,repeat:-1,ease:'sine.inOut',delay:2});
-      gsap.to('#orb3',{x:15,y:-15,duration:6,yoyo:true,repeat:-1,ease:'sine.inOut',delay:1});
 
       const titles=['ML & AI Developer','UI/UX Designer','Cloud Engineer','Research Contributor','Cinematographer'];
       let ti=0;
@@ -565,9 +466,7 @@
       gsap.set(el,{opacity:0,y:32});
       ScrollTrigger.create({trigger:el,start:'top 89%',onEnter:()=>gsap.to(el,{opacity:1,y:0,duration:.9,ease:'cubic-bezier(0.16,1,0.3,1)'})});
     });
-    gsap.utils.toArray('.proj-card').forEach((c,i)=>{
-      ScrollTrigger.create({trigger:c,start:'top 88%',onEnter:()=>gsap.to(c,{opacity:1,y:0,duration:.9,delay:i*.12,ease:'cubic-bezier(0.16,1,0.3,1)'})});
-    });
+
     gsap.utils.toArray('.exp-item').forEach((item,i)=>{
       gsap.set(item,{opacity:0,x:-24});
       ScrollTrigger.create({trigger:item,start:'top 87%',onEnter:()=>gsap.to(item,{opacity:1,x:0,duration:.9,delay:i*.1,ease:'cubic-bezier(0.16,1,0.3,1)'})});
@@ -582,8 +481,7 @@
     ScrollTrigger.create({trigger:'.cert-row',start:'top 85%',once:true,onEnter:()=>gsap.to('.cert',{opacity:1,x:0,duration:.6,stagger:.07,ease:'cubic-bezier(0.16,1,0.3,1)'})});
     gsap.set('.cert',{opacity:0,x:-16});
     ScrollTrigger.create({start:60,onEnter:()=>document.getElementById('nav').classList.add('scrolled'),onLeaveBack:()=>document.getElementById('nav').classList.remove('scrolled')});
-    gsap.to('#orb1',{y:-120,scrollTrigger:{trigger:'#hero',start:'top top',end:'bottom top',scrub:true}});
-    gsap.to('#orb2',{y:-80,scrollTrigger:{trigger:'#hero',start:'top top',end:'bottom top',scrub:true}});
+
 
     document.querySelectorAll('.cbtn,.icon-btn').forEach(btn=>{
       btn.addEventListener('mousemove',e=>{
